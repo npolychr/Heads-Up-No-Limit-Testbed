@@ -21,7 +21,7 @@ To install the meerkat api into your maven repository:
 
 */
 
-Heads Up is a game played a little different from the regular 3+ player games, because the SB and BTN seats are merged into one. The open meerkat test bed 
+Heads Up is a game played a little different from the regular 3+ player games, because the SB and BTN seats are merged into one. The open meerkat testbed 
 perceived the SB, BB and BTN seats as three different entities. To make it possible for the SB and BTN seats to merge, I had to disable the built in testers that made 
 sure everything was ok. For this reason I cannot guarantee that it will come without problems, however I have tested it and it seems fine. 
 If you encounter any problem, please contact me.
@@ -59,7 +59,7 @@ uncommenting the import at line 7, uncommenting line 74 and commenting line 77.
 Visualizing the hand history
 ----------------------------
 
-The testbed writes a history file for you to review the hands. The hand history and the bankroll chart are saved into ..Heads-Up-No-Limit-Testbed\data
+The testbed writes a history file for you to review the hands. The hand history and the bankroll chart are saved into ..Heads-Up-No-Limit-Testbed\data .
 You can visualize the hand history with a hand reviewer like Universal Replayer. You can find it at http://www.universal-replayer.net/
 
 To use it, open the hand history txt, copy everything, open Universal Replayer, hit File -> Convert History, select Text and paste the hand history. 
