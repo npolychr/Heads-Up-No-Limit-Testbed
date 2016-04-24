@@ -21,7 +21,7 @@ To install the meerkat api into your maven repository:
 
 */
 
-Heads Up is a game played a little different from the regular 3+ games, because the SB and BTN seats are merged into one. The open meerkat test bed 
+Heads Up is a game played a little different from the regular 3+ player games, because the SB and BTN seats are merged into one. The open meerkat test bed 
 perceived the SB, BB and BTN seats as three different entities. To make it possible for the SB and BTN seats to merge, I had to disable the built in testers that made 
 sure everything was ok. For this reason I cannot guarantee that it will come without problems, however I have tested it and it seems fine. 
 If you encounter any problem, please contact me.
@@ -35,8 +35,11 @@ The main file is ..Heads-Up-No-Limit-Testbed\src\main\java\CashGameConsoleStarte
 Here you can modify the game characteristics including:
 
 1) Setting the number of games, the amount of small and big blind and the amount of the starting stack (bankroll).
+
 2) Setting the game to Limit or No Limit.
+
 3) Setting the number of bots.
+
 4) Using a serialized or a random deck.
 
 1) To set the number of games you have to modify line 31.
