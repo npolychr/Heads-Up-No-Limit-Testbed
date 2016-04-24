@@ -5,7 +5,7 @@ Heads Up No Limit Bot Simulation Testbed
 This is a fork from https://github.com/corintio/opentestbed
 
 
-/* Corintio Notes
+/* Corintio's Notes
 
 I've ported it to a maven project, so it should be easier to setup the development environment (specially in an IDE other than Eclipse) and make it run. For more information on how to run it, see the [Wiki](https://github.com/corintio/opentestbed/wiki/How-To-Simulate-Cash-Games)
 
@@ -71,8 +71,11 @@ Encountering and solving problems
 Solution:  
 
 -Copy meerkat-api, weka-3.6.0 into \Java\apache-maven-3.3.3\bin
+
 -Open cmd.exe
+
 -cd \Java\apache-maven-3.3.3\bin
+
 -Run: mvn install:install-file -Dfile=meerkat-api.jar -DgroupId=com.biotools.meerkat -DartifactId=meerkat-api -Dversion=1.0 -Dpackaging=jar
 
 Same with weka-3.6.0
